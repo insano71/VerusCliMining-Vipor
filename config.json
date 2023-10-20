@@ -1,22 +1,22 @@
 {
 	"pools":[
 	{
-		"name": "LuckPool",
-        	"url": "stratum+tcp://na.luckpool.net:3960",
+		"name": "ViporUSEast",
+        	"url": "stratum+tcp://us.vipor.net:5040",
 		"timeout": 150
 	},
 	{
-		"name": "LuckPoolFailover1",
-        	"url": "stratum+tcp://na.luckpool.net:3956",
+		"name": "ViporCA",
+        	"url": "stratum+tcp://ca.vipor.net:5040",
 		"timeout": 150
 	},
 	{
-		"name": "LuckPoolFailover2",
-        	"url": "stratum+tcp://na.luckpool.net:3957",
+		"name": "ViporUSWest",
+        	"url": "stratum+tcp://usmw.vipor.net:5040",
 		"timeout": 150
 	}
 	],
-	"user": "RKbgnfWAbL43K1HrxLoWcDzRmTspYFRj6U.PHONE_FARM",
+	"user": "RH1xFWeb22gX4jy3NFBjGnkf3iFz3GJytc.PHONE_FARM",
 	"pass": "x",
 	"algo": "verus",
 	"threads": 8,
